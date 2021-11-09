@@ -1,0 +1,51 @@
+body {
+    
+    font-family:"trebuchet ms",sans-serif;
+    
+    }
+   form {
+    background-color:#FAFAFA;
+    
+    }
+    .ligne{
+ 
+        
+         border-collapse : separate;
+         border-spacing : 40px;
+        }  
+
+
+    table, th, td{
+        border-collapse: collapse;
+    }
+    .tab{
+        position:fixed;
+      tab-size: 100px;
+        left: 55px;}
+    #in{
+        size: 20px;
+        border-color: greenyellow;
+
+    }
+    .tab1{
+        background: #000
+        ;
+        background-color: aqua;
+    }
+    .form-control{
+        padding: 3px;
+    }
+  
+   input, textarea, select, option {
+    background-color: white;
+   
+   
+   
+    }
+   
+   select {
+    
+    }
+   input[type=radio] {
+    background-color:white;}
+    

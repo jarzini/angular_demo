@@ -1,0 +1,247 @@
+<html>
+    <head>
+        <link rel="stylesheet" media="screen" type="text/css" href="devis.css"/>
+    </head>
+    <body>
+        
+   
+        <form action="">
+
+            <h2> <ion-icon name="time-outline"></ion-icon>Devis n° D1004</h2>
+              
+
+<table class="ligne" style="border-collapse : separate;
+border-spacing : 10px;">
+    <div class="tab1">
+    <tr>
+<td> Client </td>
+
+<td> Adresse e-email    CCi</td>
+<th style="padding-left: 830px;">   Montant </th> 
+    </tr>
+    <tr>
+        <td>
+            <div class="form-group">
+           
+                <div class="col-sm-9">
+                    <select class="form-control" id="txtstatus" style="border-color: yellowgreen;" >
+      
+                        <option  value="1" selected="selected"> Choisisset/tapez un client </option>
+                        <option value="2"> Hamza </option>
+                        <option value="3"> Ghani </option>
+      
+      
+                    </select>
+                </div>
+              </div>
+                
+        </td>
+      
+        <td>
+           <input  type="email" style="border-color: yellowgreen;height: 23px;"  name="email" placeholder="Tapez votre email">
+
+
+        </td>
+        <th style="padding-left: 850px;">0.00$</th>
+     </tr>
+
+     <tr>
+         <td style="size: 3px;">
+            <ion-icon name="time-outline"></ion-icon>
+            <select name="client" style="border: 0px;" >
+                <option value="value1">en attente</option>
+                <option value="value2">value2</option>
+                <option value="value3">value3</option>
+                <option value="value4">value4</option>
+            </select>   
+        </td>
+        <!--
+        <td  style="padding-left: 1px;">
+           
+            <select name="client" >
+                <option value="value1">en attente</option>
+                <option value="value2">value2</option>
+                <option value="value3">value3</option>
+                <option value="value4">value4</option>
+            </select>
+        </td>
+        -->
+         <td>
+            <input type="checkbox" name="nom" value="envoyer en retard " >envoyer en retard
+         </td>
+     </tr>
+</table>
+<table style="border-collapse : separate;
+border-spacing : 10px;">
+    <tr>
+        
+            <td>
+               Adresse de facturation  
+            </td>
+            <td>
+                Date du Devis
+            </td>
+            <td>
+                Date d'expiration
+            </td>
+            
+        <td style="padding-left: 700px;"> N°Devis </td>
+        
+        </tr>
+        <tr>
+            <td>
+            <textarea name="text" id="1" cols="" rows=""></textarea>
+        </td>
+        <td>
+            <input type="date" name="dater">
+        </td>
+        <td>
+            <input type="date" name="date">
+        </td>
+        <td style="padding-left: 640px;"><input type="text" value="D1004"></td>
+        </tr>
+</table>
+
+<table>
+<tr>
+    <td>Lieu de vente</td>
+   <td style="padding-left: 1100px;color: blue;"  >Personaliser  </td>
+</tr>
+<tr>
+    <td>
+        <div class="form-group">
+           
+          <div class="col-sm-9">
+              <select class="form-control" style="width: 130px;" id="txtstatus" >
+
+                  <option  value="1" selected="selected"> France </option>
+                  <option value="2"> Maroc </option>
+                  <option value="3"> Turk </option>
+
+
+              </select>
+          </div>
+        </div>
+            
+    </td>
+</tr>
+</table>
+<table style="background-color: white;">
+<tr>
+    <td style="padding-left: 1150px;">aficher des montant </td> 
+    <td><select name="HT" id="1" >
+        <OPtion>  HT</OPtion>
+    </select></td>
+
+</tr></div> </table>
+<div class="tab" style="background-color: rgb(255, 255, 255)";>
+<table width="1300" margin="22" height="10" border="1px"  cellpadding="15" cellspacing="0">
+    <tr>
+        <th> </th>
+        <th>
+            
+        </th>
+        <th>
+            Date du Service
+        </th>
+        <th>
+            Produit/service
+        </th>
+        <th>
+            Description
+        </th>
+        <th>
+            QTE
+        </th>
+        <th>
+            PRIX UNITAIRE HT
+        </th>
+        <th>
+            MONTANT HT
+        </th>
+        <th>
+            REMISE HT
+        </th>
+        <th>
+            TVA
+        </th>
+        <th  > </th>
+    </tr>
+    <tr>
+        <td><ion-icon name="apps-outline"></ion-icon> </td>
+        <td>1</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><ion-icon name="trash-outline"></ion-icon></td>
+    </tr>
+    <tr>
+         <td><ion-icon name="apps-outline"></ion-icon> </td>
+        <td>2</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><ion-icon name="trash-outline"></ion-icon></td>
+    </tr>
+    
+</table>
+<table>
+    <tr>
+        <td>
+            <input type="button" value="ajouter tous les ligne">
+            <input type="submit" name="supprimer" value="suprimer tous les ligne">
+            <input type="submit" name="ajout" value="ajouter sous total">
+        </td>
+    </tr>    
+    
+     
+</table>
+Message affiché sur le devis:<br>
+    <textarea name="text" id="2" cols="" rows=""> </textarea>
+<table>
+
+<tr>
+
+    <td>
+        
+       <tr>
+        
+           <td style="padding-left: 1150px;">Total net HT 0,00$</th>
+        </tr>
+       <tr>
+            <td style="padding-left:1150px;"> Total TTC 0,00$</td>
+        </tr>
+     <tr>
+          <td style="padding-left: 1150px;">Total de Devis 0,00$</td>
+    </tr>
+</td>
+</table>
+    </tr>
+<tr>
+   <i> message affiche sur le releve de situation : </i><br>
+    <td><input type="text" name="fact" ></td>
+</tr>
+   
+
+    
+
+
+
+
+</div>
+  </form>
+<script src="devis.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
